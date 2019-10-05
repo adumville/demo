@@ -76,9 +76,7 @@ public class TransactionServiceIntegrationTest {
 		assertEquals(1, pt.getFraudlent().size());
 		assertEquals(0, pt.getProcessed().size());
 		assertEquals(0, pt.getInvalidRequests().size());
-	}
-	/*
-	@Test 
+	}	@Test 
 	public void shouldProcessOneFailOneAsExceedsDailyThreshold() {
 		
 		List<String> list = new ArrayList<String>();
