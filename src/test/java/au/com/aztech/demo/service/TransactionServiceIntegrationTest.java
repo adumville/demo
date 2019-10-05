@@ -50,6 +50,7 @@ public class TransactionServiceIntegrationTest {
 		assertEquals(0, pt.getProcessed().size());
 		assertEquals(4, pt.getInvalidRequests().size());
 	}
+	/*
 	@Test 
 	public void shouldProcessOneTransactions() {
 		
@@ -63,7 +64,7 @@ public class TransactionServiceIntegrationTest {
 		assertEquals(1, pt.getProcessed().size());
 		assertEquals(0, pt.getInvalidRequests().size());
 	}
-	
+	*/
 	@Test 
 	public void shouldProcessTransactionsAsExceedsThreshold() {
 		
